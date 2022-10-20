@@ -27,22 +27,25 @@ header p {
   padding: 0 20px;
   margin: 0;
 }
-
+.meme_hauteur {
+  height: 300px;
+  width: auto;
+}
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://content.codecademy.com/projects/make-a-website/lesson-4/jumbotron.jpg');
+  background-image: url('https://img.over-blog-kiwi.com/2/69/50/37/20190616/ob_93228b_58629804-563019650887808-6857529086135.jpg');
   background-size: cover;
-  color: #ffffff;
+  color: #fffff;
   height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+  text-shadow: 0.25px 0.25px 0.25px;
 }
 
 .jumbotron h2 {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
-  color: #fff;
+  color: black;
 }
 
 .jumbotron h3 {
@@ -96,3 +99,4 @@ footer li img {
   width: 32px;
   height: 32px;
 }
+
