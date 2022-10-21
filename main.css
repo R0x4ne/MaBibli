@@ -99,4 +99,14 @@ footer li img {
   width: 32px;
   height: 32px;
 }
+a {
+  color: #333;
+  background-color: #fff;
+  transition: all 1s ease-out;
+}
 
+a:hover,
+a:focus {
+  color: #fff;
+  background-color: #333;
+}
